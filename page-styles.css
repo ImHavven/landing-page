@@ -26,19 +26,23 @@ img {
 button {
     border: none;
     border-radius: 5px;
-    background-color: black;
     padding: 5px;
-    color: firebrick;
     padding: 15px 35px;
     margin: 10px;
-    font-weight: bold;
+    font-weight: 700;
     cursor: pointer;
 }
 
-button.sign-up {
+button#btn {
+    color: firebrick;
+    background-color: black;
+}
+
+button#sign-up {
     background-color: #bd3030;
     color: black;
     border: solid black;
+    margin: 22px;
 }
 
 
@@ -113,9 +117,10 @@ div.box-2-text {
     justify-content: center;
 }
 
-div.text1 {
+h1.text1 {
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
 }
 
 
@@ -153,17 +158,18 @@ div.box3 {
 div.quote {
     display: flex;
     flex-direction: column;
+    font-style: italic;
     gap: 20px;
     padding: 80px;
     font-size: 22px;
     background-color: #dd8383;
 }
 
-div.quote2 {
-    font-weight: bold;
+cite.quote2 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    font-weight: bold;
 }
 
 
@@ -183,6 +189,10 @@ div.sign {
     border: none;
     border-radius: 5px;
     gap: 80px;
+}
+
+h2#sign-3 {
+    margin: 16px;
 }
 
 /* Styles for the Footer */
